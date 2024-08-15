@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML Tastatur</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <h1>HTML generert Tastatur</h1>
+        <div class="DivKeys">
+            <p>Her kan du trykke inn bokstaver som du måtte ønske, have fun!</p>
+            <div id="keyboard">
+            <button id="keyA" onclick= "keyA()">A</button>
+            <button id="keyB" onclick= "keyB()">B</button>
+            <button id="keyC" onclick="keyC()">C</button>
+            <button id="keyD" onclick="keyD()">D</button>
+            <button id="keyE" onclick="keyE()">E</button>
+            </div>
+            
+        </div>
+        <div id="divA" onclick= "pushedLetter()">A</div>
+
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
