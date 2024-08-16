@@ -1,11 +1,6 @@
-document.addEventListener("keydown", function(event) {
-    if (event.keyCode >= 65 && event.keyCode <= 90) {
-        document.getElementById("divA").innerHTML += event.key;
-    }
-});
-                          
+const keyboard = document.getElementById("keyboard");
 
-function pushedLetter(event) {
-    let letter = event.target.innerHTML;
+function pushedLetter(button) {
+    let letter = button.innerHTML;
     document.getElementById("divA").innerHTML += letter;
 }
