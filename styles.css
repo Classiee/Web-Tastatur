@@ -1,0 +1,64 @@
+#DivKeys {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+        grid-template-rows: repeat(2, 1fr);
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;    
+}
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.keyboardButton{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keyboardButton2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    margin-top:10px;
+    padding-top: 10px;
+    font-size: 18px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.keyboardButton:hover {
+    background-color: #e0e0e0;
+}
+
+.keyboardButton:active{
+    background-color: #ccc;
+}
+
+.divA {
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}

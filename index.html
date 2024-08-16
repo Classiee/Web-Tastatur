@@ -14,21 +14,46 @@
         <h1>HTML generert Tastatur</h1>
         <div class="DivKeys">
             <p>Her kan du trykke inn bokstaver som du måtte ønske, have fun!</p>
+            
             <div id="keyboard">
-            <button id="keyA" onclick= "keyA()">A</button>
-            <button id="keyB" onclick= "keyB()">B</button>
-            <button id="keyC" onclick="keyC()">C</button>
-            <button id="keyD" onclick="keyD()">D</button>
-            <button id="keyE" onclick="keyE()">E</button>
-            <button id="keyF" onclick="keyF()">F</button>
-            <button id="keyG" onclick="keyG()">G</button>
-            <button id="keyH" onclick="keyH()">H</button>
-            <button id="keyI" onclick="keyI()">I</button>
+                <div id="keyboardButton1">
+                    <button id="keyA" onclick= "pushedLetter(event)">A</button>
+                    <button id="keyB" onclick= "pushedLetter(event)">B</button>
+                    <button id="keyC" onclick="pushedLetter(event)">C</button>
+                    <button id="keyD" onclick="pushedLetter(event)">D</button>
+                    <button id="keyE" onclick="pushedLetter(event)">E</button>
+                    <button id="keyF" onclick="pushedLetter(event)">F</button>
+                    <button id="keyG" onclick="pushedLetter(event)">G</button>
+                    <button id="keyH" onclick="pushedLetter(event)">H</button>
+                    <button id="keyI" onclick="pushedLetter(event)">I</button>
+                    <button id="keyJ" onclick="pushedLetter(event)">J</button>
+                    <button id="keyK" onclick="pushedLetter(event)">K</button>
+                    <button id="keyL" onclick="pushedLetter(event)">L</button>
+                    <button id="keyM" onclick="pushedLetter(event)">M</button>
+                    <button id="keyN" onclick="pushedLetter(event)">N</button>
+                </div>
+                <div id="keyboardButton2">
+                    <button id="keyO" onclick="pushedLetter(event)">O</button>
+                    <button id="keyP" onclick="pushedLetter(event)">P</button>
+                    <button id="keyQ" onclick="pushedLetter(event)">Q</button>
+                    <button id="keyR" onclick="pushedLetter(event)">R</button>
+                    <button id="keyS" onclick="pushedLetter(event)">S</button>
+                    <button id="keyT" onclick="pushedLetter(event)">T</button>
+                    <button id="keyU" onclick="pushedLetter(event)">U</button>
+                    <button id="keyV" onclick="pushedLetter(event)">V</button>
+                    <button id="keyW" onclick="pushedLetter(event)">W</button>
+                    <button id="keyX" onclick="pushedLetter(event)">X</button>
+                    <button id="keyY" onclick="pushedLetter(event)">Y</button>
+                    <button id="keyZ" onclick="pushedLetter(event)">Z</button>
+                    <button id="keyÆ" onclick="pushedLetter(event)">Æ</button>
+                    <button id="keyØ" onclick="pushedLetter(event)">Ø</button>
+                    <button id="keyÅ" onclick="pushedLetter(event)">Å</button>
+                </div>
             </div>
             
             
         </div>
-        <div id="divA" onclick= "pushedLetter()"></div>
+        <div id="divA"></div>
 
         
         <script src="index.js" async defer></script>
